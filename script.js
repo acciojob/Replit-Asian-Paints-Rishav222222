@@ -2,7 +2,7 @@ const gridItems = document.querySelectorAll('.grid-item');
 const blockIdInput = document.getElementById('block_id');
 const colorIdInput = document.getElementById('colour_id');
 const changeButton = document.getElementById('change_button');
-const resetButton = document.getElementById('reset');
+const resetButton = document.getElementById('reset_button');
 
 // Function to reset all grid items' background colors
 function resetColors() {

@@ -1,16 +1,17 @@
-//your JS code here. If required.
 const gridItems = document.querySelectorAll('.grid-item');
-const blockedId = document.getElementById('block_id');
-const colourId = document.getElementById('colour_id');
-const buttonId = document.getElementById('change_button');
-const resetId = document.getElementById('reset');
+const blockIdInput = document.getElementById('block_id');
+const colorIdInput = document.getElementById('colour_id');
+const changeButton = document.getElementById('change_button');
+const resetButton = document.getElementById('reset');
 
-function resetColours(){
-	gridItems.forEach(item =>{
-		item.style.backgroundColor('transparent')
-	});
+// Function to reset all grid items' background colors
+function resetColors() {
+    gridItems.forEach(item => {
+        item.style.backgroundColor = 'transparent';
+    });
 }
 
+// Function to change the color of the specified block
 function changeColor() {
     const blockId = blockIdInput.value;
     const color = colorIdInput.value;

@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<div id="grid-container">
-
-		<div id="1" class="grid-item"></div>
-		<div id="2" class="grid-item"></div>
-		<div id="3" class="grid-item"></div>
-		<div id="4" class="grid-item"></div>
-		<div id="5" class="grid-item"></div>
-		<div id="6" class="grid-item"></div>
-		<div id="7" class="grid-item"></div>
-		<div id="8" class="grid-item"></div>
-		<div id="9" class="grid-item"></div>
-	</div>
-
-	<div>
-		 <label for="block_id">Block ID:</label>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="grid-container">
+        <!-- Grid items with ids 1 to 9 -->
+        <div id="1" class="grid-item">1</div>
+        <div id="2" class="grid-item">2</div>
+        <div id="3" class="grid-item">3</div>
+        <div id="4" class="grid-item">4</div>
+        <div id="5" class="grid-item">5</div>
+        <div id="6" class="grid-item">6</div>
+        <div id="7" class="grid-item">7</div>
+        <div id="8" class="grid-item">8</div>
+        <div id="9" class="grid-item">9</div>
+    </div>
+    <div>
+        <label for="block_id">Block ID:</label>
         <input type="text" id="block_id" placeholder="Enter block ID">
         
         <label for="colour_id">Color:</label>
@@ -25,15 +28,8 @@
         
         <button id="change_button">Change Color</button>
         <button id="reset">Reset</button>
-	</div>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    </div>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
